@@ -1,0 +1,22 @@
+{
+  "name": "diactoros",
+  "version": "1.0.0",
+  "description": "Swipes push notification server",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "node-schedule": "^0.2.9",
+    "push-notify": "^1.1.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-nodemon": "^0.4.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "debug": "source ./env && node server.js"
+  },
+  "author": "Helson Taveras",
+  "license": "ISC"
+}
